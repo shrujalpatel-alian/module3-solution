@@ -1,0 +1,116 @@
+body{
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#header-nav{
+    background-color: #999999;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.navbar-brand{
+    margin-top: 15px;
+    padding-top: 9px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-toggle{
+    margin-top: 15px;
+}
+
+.navbar-brand h1{ 
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.navbar-collapse{
+    background-color: #999999;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+#nav-list {
+    margin-top: 0;
+}
+  #nav-list a {
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+      background: none;
+  }
+/*
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }*/
+
+.navbar-header{
+    height:70px;
+}
+
+div h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container{
+    width: 100%;
+}
+
+.col{
+    background-color: #999999;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.item{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse{
+        background-color: white;
+    }
+}
